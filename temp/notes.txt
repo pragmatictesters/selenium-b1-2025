@@ -1,0 +1,61 @@
+
+
+XPath
+
+
+Absolute path
+/html
+
+Relative path
+//
+
+
+<div class="inventory_item_label">
+<a href="#" id="item_4_title_link" data-test="item-4-title-link"><div class="inventory_item_name " data-test="inventory-item-name">Sauce Labs Backpack</div></a>
+<div class="inventory_item_desc" data-test="inventory-item-desc">carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+</div><
+/div>
+
+
+1. Locating element by attribute
+
+//*[@attributeName]
+
+//tagName[@attributeName]
+
+
+2. Locating element by attribute and value
+
+//*[@attributeName='value']
+
+//tagName[@attributeName='value']
+
+
+3. Multiple attribute
+//*[@attributeName1='value1'][@attributeName1='value1']
+
+4. Locate element by inner text
+
+//*[text()='exactText']
+//tagName[text()='exactText']
+
+5. Locate element by partial text
+
+//*[contains(text(),'partialText')]
+//tagName[contains(text(),'partialText')]
+
+6. Select chile element
+
+element1/element2
+element1/child::element2
+
+<input class="input_error form_input" placeholder="Username" type="text"
+data-test="username" id="user-name" name="user-name" autocorrect="off" autocapitalize="none" value="">
+
+//input[@class='input_error form_input']
+//*[@id='user-name']
+
+
+
+
+

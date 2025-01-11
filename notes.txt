@@ -1,0 +1,8 @@
+
+
+CSS
+<span class="title" data-test="title">Products</span>
+
+Locating element by attribute and value
+Syntax : [attributeName='value']
+Example : [data-test='title']
